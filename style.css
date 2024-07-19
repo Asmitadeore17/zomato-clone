@@ -1,0 +1,243 @@
+*{
+    font-family: Arial;
+    margin: 0px;
+    border: border-box;
+}
+.navbar {
+    height: 450px;
+    width: 100%;
+    background-image: url("background-img.avif");
+    background-size: cover;
+}
+.nav-option {
+    height: 40px;
+    padding: 17px 0px;
+    display: flex;
+}
+.op-sec1 {
+    width: 40%;
+    margin-left: 90px;
+}
+.op-sec1 i {
+    color: #ffffff;
+}
+.op-sec1 a {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+}
+.op-sec2 {
+    width: 60%;
+}
+li {
+    list-style-type: none; 
+    display: inline;
+    padding-left: 25px;
+}
+li a {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 8px;
+    text-decoration: none;
+}
+.display {
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo {
+    height: 70px;
+    width: 300px;
+}
+.logo h1 {
+    height: 70px;
+    width: 100%;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 5000;
+}
+.hero-section p span {
+    height: 130px;
+    width: 50px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+}
+.search-bar {
+    height: 50px;
+    width: 700px;
+    display: flex;
+}
+.location-logo {
+    width: 5%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.location-search {
+    width: 15%;
+    font-size: 1.2rem;
+    border: none;
+}
+.dropdown {
+    width: 5%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon {
+    width: 5%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-input {
+    width: 70%;
+    font-size: 1.2rem;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+}
+.categories {
+    background-color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box {
+    width: 350px;
+    height: 270px;
+    border-radius: 10px;
+    background-color: #ffffff; 
+    border: 2px solid #f4f4f4;
+}
+.box-img {
+    height: 70%;
+    background-size: cover;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+.box-content {
+    height: 20%;
+    background-color: #ffffff;
+    padding: 10px 20px 16px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+.box-content .p1 {
+    font-size: 20px;
+    color: #363636;
+}
+.box-content .p2 {
+    font-size: 16px;
+    color: #4f4f4f;
+}
+.box:hover {
+    height: 280px;
+    width: 360px;
+}
+.collection {
+    height: 450px;
+    width: 100%;
+}
+.collection h2 {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1c1c1c;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}  
+.collection h6 {
+    font-size: 18px;
+    font-weight: 100;
+    color: #363636;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}  
+.collec-box {
+    height: 320px;
+    width: 250px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.collec-img {
+    position: relative;
+    height: 320px;
+    width: 250px;
+    background-size: cover; 
+    margin-left: 25px;
+    border-radius: 6px;
+} 
+.collec-img-section {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+}  
+.img-p1 {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px 16px;
+}
+.img-p2 {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 3px 0px 0px;
+    padding: 0px 16px;
+}  
+.footer {
+    width: 100%;
+    height: 300px;
+    padding: 48px 0px 28px;
+    /* margin-left: 30px; */
+}
+.foot-sec1 {
+    height: 37px;
+    margin: 0px 0px 40px;
+}
+.foot-logo {
+    height: 28px;
+    width: 132px;
+    background-image: url("logofoot.avif");
+    background-size: cover;
+    margin-left: 40px;
+}
+.foot-sec2 {
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #696969;
+    padding-right: 50PX;
+}
+.foot-sec2 ul p {
+    font-size: 14px;
+    color: #000000;
+    margin: 0px 0px 12px;
+    font-weight: 500;
+}
+.foot-sec2 ul a {
+    display: block;
+    font-size: 14px;
+    color: #696969;
+    margin: 5px 0px;
+    text-decoration: none;
+}
+.foot-sec3 {
+    height: 58px;
+    margin: 23px 0px 13px;
+    font-size: 13px;
+    color: #4f4f4f;
+}
+.foot-sec3 p {
+    margin-left: 40px;
+}
